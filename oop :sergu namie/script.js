@@ -12,6 +12,8 @@ class Being {
         console.assert.log(`connected to the source, to the root, to the element...`)
      }
 }
+Being.greeting();
+
 const Angel = new Being("Angel", "Reyna", 18);
 
 
