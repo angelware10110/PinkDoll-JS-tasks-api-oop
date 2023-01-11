@@ -9,7 +9,7 @@ class Being {
         console.log(this.name, this.last_name, this.age)
     }
      static greeting(){
-        console.assert.log(`connected to the source, to the root, to the element...`)
+        console.log(`connected to the source, to the root, to the element...`)
      }
 }
 Being.greeting();
@@ -41,7 +41,6 @@ PinkDoll.printStudentInfo();
 const Rainbow = new Student ("Rainbow", "Endie", 18, "Cryptography")
 Rainbow.printStudentInfo();
 
-const topics = [];
 
 class Teacher extends Being {
     constructor(name, last_name, age, subject, salary){
@@ -63,19 +62,19 @@ class Teacher extends Being {
         console.log(this.salary);
         console.log(this.topics);
     }
+    getInfoTeacher() {
+        console.log(`Teachers info: ${this.name} , ${this.last_name} , ${this.age}. Subject: ${this.subject}. Modules: `)
+        for (let i = 0; i < this.topics.length; i++) {
+            console.log(this.topics[i]);
+        }
+    }
 }
-
-
-
-topics.forEach(topic => console.log(topics));
-
-
-
 
 const MissButterfly = new Teacher("MissButterfly", "Winggs", 18, "Flying", "101010101111111");
 MissButterfly.printTeacherInfo();
 MissButterfly.setTopics("Free fall");
 MissButterfly.setTopics("Clouds diving");
+MissButterfly.getInfoTeacher();
 
 
 
