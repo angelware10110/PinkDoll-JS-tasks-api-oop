@@ -21,6 +21,8 @@ class User {
         // let element = document.createElement("form");
         // element.innerText = blessing;
         // target.appendChild(element).className = "bordered listitem";
+        // perdayg metodu gali but, appendchild ir class name gali palust kartais
+
 
         this.blessings.push(blessing);
     }
