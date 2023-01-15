@@ -3,7 +3,7 @@ console.log('test');
 const place = document.getElementById('root');
 const myButton = document.createElement('button');
 place.appendChild(myButton);
-myButton.innerText = "Gauk kavos"
+myButton.innerText = "Gauk suni"
 
 //1. susikurti img elementa
 
@@ -12,7 +12,7 @@ place.appendChild(document.createElement('img'));
 
 
 async function getData() {
-    const res = await fetch("https://coffee.alexflipnote.dev/random.json")
+    const res = await fetch("https://dog.ceo/api/breeds/image/random")
     const data = await res.json();
     console.log(data);
     //3. src atributui priskirti reiksme kuria gaunami is api
