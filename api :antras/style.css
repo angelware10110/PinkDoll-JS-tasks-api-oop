@@ -2,12 +2,12 @@
     margin: 0;
     padding: 5%;
     box-sizing: border-box;
-    background-color: rgb(198, 144, 237);
+    background-color: rgb(215, 188, 234);
 }
 
 .form-check-label {
     size: 50rem;
-    color: rgb(36, 91, 201);
+    color: rgb(0, 0, 0);
 }
 
 .imgContainer {
