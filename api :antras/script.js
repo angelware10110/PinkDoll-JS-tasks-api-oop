@@ -54,8 +54,7 @@ const getCountryInfo = async (event) => {
                 <p class="card-text">Population: ${one_country.capital[0]
                     }</p>
                 <p class="card-text">Population: ${one_country.population}</p>
-         
-       
+
         </div>
         `
                 document.querySelector('.container').appendChild(one_country_info);
