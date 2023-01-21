@@ -1,13 +1,13 @@
-.deletible {
+.photos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 20px 0;
-    gap: 5px;
+    margin: 20px;
+    gap: 1px;
 }
 
 img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
 }
