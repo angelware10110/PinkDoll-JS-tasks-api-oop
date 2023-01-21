@@ -10,7 +10,7 @@ const getCountryInfo = async (event) => {
     console.log(country_name.value);
     if (country_name.value == '' || country_name.value.length < 3) {
         console.log(country_name.value);
-        alert('Lauka butinas uzpildyti ir turi buti ilgesnis nei 3 simboliai');
+        alert('Laukas butinas uzpildyti ir turi buti ilgesnis nei 3 simboliai');
     } else {
         const country = country_name.value;
 
@@ -51,7 +51,7 @@ const getCountryInfo = async (event) => {
             <img src="${one_country.flags.png}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${one_country.name.common}</h5>
-                <p class="card-text">Population: ${one_country.capital[0]
+                <p class="card-text">Capital: ${one_country.capital[0]
                     }</p>
                 <p class="card-text">Population: ${one_country.population}</p>
 
