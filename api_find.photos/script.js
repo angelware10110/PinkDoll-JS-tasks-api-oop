@@ -36,11 +36,11 @@ async function getData(event) { //choose photo
     }
 
     console.log(data)
-   if(data){data.results.map(item => {
-
-        myDiv.classList.add('photos');
-        imgContainer.appendChild(myDiv)
-        const img = `<img src='${item.urls.small}'></img>`
+   if(data){data.results.map(item => {  
+ 
+        myDiv.classList.add('photos'); 
+        imgContainer.appendChild(myDiv) 
+        const img = `<img src='${item.urls.small}'></img>`  
         myDiv.innerHTML += img;
     })}
 };
